@@ -1,0 +1,8 @@
+[esp-rust-mqtt-sensor]
+mqtt_user = "xxxxxx"
+mqtt_pass = "xxxx"
+broker_url = "mqtt://192.168.2.230:1883"
+wifi_ssid = "xxxx"
+wifi_pass = "xxxxxxxxx"
+discovery_topic = "homeassistant/sensor/{}/config"
+state_topic = "homeassistant/rust_esp_sensor/{}"
