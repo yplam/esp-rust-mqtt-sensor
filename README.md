@@ -13,6 +13,8 @@ ESP32 gpio3 <- S8 UART_TxD
 
 ## Build and run
 
+Edit config options in cfg.toml and then:
+
 ```
 $ source ~/esp/esp-idf/export.sh
 $ cargo build --release
